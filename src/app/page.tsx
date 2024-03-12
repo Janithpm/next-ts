@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { Button } from '@nextui-org/button'
 
 export default function Home(): JSX.Element {
   return (
@@ -12,6 +13,9 @@ export default function Home(): JSX.Element {
             Janithpm
           </Link>
         </p>
+        <Button color='danger' className='mt-3 text-2xl'>
+          👋
+        </Button>
       </div>
     </main>
   )
