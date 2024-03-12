@@ -3,12 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: [
-    'next/core-web-vitals',
-    'standard-with-typescript',
-    'plugin:react/recommended',
-    'prettier'
-  ],
+  extends: ['next/core-web-vitals', 'standard-with-typescript', 'plugin:react/recommended', 'prettier'],
   overrides: [
     {
       env: {
